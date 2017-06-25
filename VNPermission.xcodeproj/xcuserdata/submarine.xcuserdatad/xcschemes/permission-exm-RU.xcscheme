@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE347ED61EF7C5C700015888"
-               BuildableName = "VNPermission.framework"
-               BlueprintName = "VNPermission"
+               BlueprintIdentifier = "DE347EE51EF7C5E100015888"
+               BuildableName = "permission-exm.app"
+               BlueprintName = "permission-exm"
                ReferencedContainer = "container:VNPermission.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DE347EE51EF7C5E100015888"
+            BuildableName = "permission-exm.app"
+            BlueprintName = "permission-exm"
+            ReferencedContainer = "container:VNPermission.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,16 +51,19 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
-      language = "ru">
-      <MacroExpansion>
+      showNonLocalizedStrings = "YES"
+      language = "ru"
+      region = "RU">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE347ED61EF7C5C700015888"
-            BuildableName = "VNPermission.framework"
-            BlueprintName = "VNPermission"
+            BlueprintIdentifier = "DE347EE51EF7C5E100015888"
+            BuildableName = "permission-exm.app"
+            BlueprintName = "permission-exm"
             ReferencedContainer = "container:VNPermission.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -61,15 +73,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE347ED61EF7C5C700015888"
-            BuildableName = "VNPermission.framework"
-            BlueprintName = "VNPermission"
+            BlueprintIdentifier = "DE347EE51EF7C5E100015888"
+            BuildableName = "permission-exm.app"
+            BlueprintName = "permission-exm"
             ReferencedContainer = "container:VNPermission.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

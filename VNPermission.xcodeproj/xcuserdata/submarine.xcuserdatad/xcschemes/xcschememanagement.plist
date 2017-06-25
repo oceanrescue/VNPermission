@@ -6,13 +6,30 @@
 	<dict>
 		<key>VNPermission.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>permission-exm-RU.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>permission-exm.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>DE347ED61EF7C5C700015888</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE347EE51EF7C5E100015888</key>
 		<dict>
 			<key>primary</key>
 			<true/>

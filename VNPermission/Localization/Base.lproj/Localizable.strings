@@ -1,0 +1,87 @@
+
+/* OK */
+"com.mistral.permission.alert.actionButton.OK" = "OK";
+
+/* Show me - button title to show Settings preferencies */
+"com.mistral.permission.alert.actionButton.showPreferrencies" = "Show me";
+
+/* Please enable access to %@ in the Settings app */
+"com.mistral.permission.alert.message.denied." = "Please enable access to %@ in the Settings app";
+
+/* Please enable access to %@ in the Settings app */
+"com.mistral.permission.alert.message.disabled." = "Please enable access to %@ in the Settings app";
+
+/* Permission for %@ was denied. */
+"com.mistral.permission.alert.title.denied." = "Permission for %@ was denied.";
+
+/* Permission for %@ is curently disabled. */
+"com.mistral.permission.alert.title.disabled." = "Permission for %@ is curently disabled.";
+
+/* permission status Authorized */
+"com.mistral.permission.status.authorized" = "Authorized";
+
+/* permission status Disabled */
+"com.mistral.permission.status.disabled" = "Disabled";
+
+/* permission status Unauthorized */
+"com.mistral.permission.status.unauthorized" = "Unauthorized";
+
+/* permission status Unknown */
+"com.mistral.permission.status.unknown" = "Unknown";
+
+/* Title permission type Bluetooth */
+"com.mistral.permission.type.bluetooth" = "com.mistral.permission.type.bluetooth";
+
+/* Title permission type Camera */
+"com.mistral.permission.type.camera" = "Bluetooth";
+
+/* Title permission type Contacts */
+"com.mistral.permission.type.contacts" = "Contacts";
+
+/* Title permission type Events */
+"com.mistral.permission.type.events" = "Events";
+
+/* Title permission type Location always */
+"com.mistral.permission.type.locationAlways" = "Location always";
+
+/* Title permission type Location in use */
+"com.mistral.permission.type.locationInUse" = "Location in use";
+
+/* Title permission type Microphone */
+"com.mistral.permission.type.microphone" = "Microphone";
+
+/* Title permission type Motion */
+"com.mistral.permission.type.motion" = "Motion";
+
+/* Title permission type Notifications */
+"com.mistral.permission.type.notifications" = "Notifications";
+
+/* Title permission type Photos */
+"com.mistral.permission.type.photos" = "Photos";
+
+/* Title permission type Reminders */
+"com.mistral.permission.type.reminders" = "Reminders";
+
+/* We need a couple things\r\nbefore you get started. */
+"com.mistral.permission.view.bodylabel" = "We need a couple things\r\nbefore you get started.";
+
+/* Allow %@ - permission type */
+"com.mistral.permission.view.button.allow" = "Allow %@";
+
+/* Enable %@ - permission type */
+"com.mistral.permission.view.button.enable" = "Enable %@";
+
+/* Allowed %@ - title for permission button */
+"com.mistral.permission.view.button.status.allowed" = "Allowed %@";
+
+/* Denied %@ - title for permission button */
+"com.mistral.permission.view.button.status.denied" = "Denied %@";
+
+/* Close - button title */
+"com.mistral.permission.view.closebutton" = "Close";
+
+/* Hey, listen! */
+"com.mistral.permission.view.headerlabel" = "Hey, listen!";
+
+/* %@ Disabled - title for permission button */
+"com.mistral.permission.view.button.status.disabled" = "%@ Disabled";

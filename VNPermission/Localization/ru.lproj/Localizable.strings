@@ -1,0 +1,87 @@
+
+/* OK */
+"com.mistral.permission.alert.actionButton.OK" = "OK";
+
+/* Show me - button title to show Settings preferencies */
+"com.mistral.permission.alert.actionButton.showPreferrencies" = "Показать";
+
+/* Please enable access to %@ in the Settings app */
+"com.mistral.permission.alert.message.denied." = "Пожалуйста, разрешите доступ к %@ в Настройках.";
+
+/* Please enable access to %@ in the Settings app */
+"com.mistral.permission.alert.message.disabled." = "Пожалуйста, разрешите доступ к %@ в Настройках.";
+
+/* Permission for %@ was denied. */
+"com.mistral.permission.alert.title.denied." = "Доступ к %@ запрещен.";
+
+/* Permission for %@ is curently disabled. */
+"com.mistral.permission.alert.title.disabled." = "Доступ к %@ отключен";
+
+/* permission status Authorized */
+"com.mistral.permission.status.authorized" = "Разрешено";
+
+/* permission status Disabled */
+"com.mistral.permission.status.disabled" = "Отключено";
+
+/* permission status Unauthorized */
+"com.mistral.permission.status.unauthorized" = "Запрещено";
+
+/* permission status Unknown */
+"com.mistral.permission.status.unknown" = "Не определено";
+
+/* Title permission type Bluetooth */
+"com.mistral.permission.type.bluetooth" = "Блютуз";
+
+/* Title permission type Camera */
+"com.mistral.permission.type.camera" = "Камера";
+
+/* Title permission type Contacts */
+"com.mistral.permission.type.contacts" = "Контакты";
+
+/* Title permission type Events */
+"com.mistral.permission.type.events" = "Календарь";
+
+/* Title permission type Location always */
+"com.mistral.permission.type.locationAlways" = "Геолокация всегда";
+
+/* Title permission type Location in use */
+"com.mistral.permission.type.locationInUse" = "Геолокация используя";
+
+/* Title permission type Microphone */
+"com.mistral.permission.type.microphone" = "Микрофон";
+
+/* Title permission type Motion */
+"com.mistral.permission.type.motion" = "Акселерометр";
+
+/* Title permission type Notifications */
+"com.mistral.permission.type.notifications" = "Уведомления";
+
+/* Title permission type Photos */
+"com.mistral.permission.type.photos" = "Фото";
+
+/* Title permission type Reminders */
+"com.mistral.permission.type.reminders" = "Напоминания";
+
+/* We need a couple things\r\nbefore you get started. */
+"com.mistral.permission.view.bodylabel" = "Проверьте пожалуйста доступ, прежде чем продолжить";
+
+/* Allow %@ - permission type */
+"com.mistral.permission.view.button.allow" = "Разрешить %@";
+
+/* Enable %@ - permission type */
+"com.mistral.permission.view.button.enable" = "Включить %@";
+
+/* Allowed %@ - title for permission button */
+"com.mistral.permission.view.button.status.allowed" = "%@ разрешено";
+
+/* Denied %@ - title for permission button */
+"com.mistral.permission.view.button.status.denied" = "%@ запрещено";
+
+/* Close - button title */
+"com.mistral.permission.view.closebutton" = "Закрыть";
+
+/* Hey, listen! */
+"com.mistral.permission.view.headerlabel" = "Привет!";
+
+/* %@ Disabled - title for permission button */
+"com.mistral.permission.view.button.status.disabled" = "%@ отключено";

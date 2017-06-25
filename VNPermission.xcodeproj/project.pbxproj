@@ -8,12 +8,86 @@
 
 /* Begin PBXBuildFile section */
 		DE347EDC1EF7C5C700015888 /* VNPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = DE347EDA1EF7C5C700015888 /* VNPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE347EEA1EF7C5E100015888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347EE91EF7C5E100015888 /* main.m */; };
+		DE347EED1EF7C5E100015888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347EEC1EF7C5E100015888 /* AppDelegate.m */; };
+		DE347EF01EF7C5E100015888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347EEF1EF7C5E100015888 /* ViewController.m */; };
+		DE347EF31EF7C5E100015888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE347EF11EF7C5E100015888 /* Main.storyboard */; };
+		DE347EF51EF7C5E100015888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE347EF41EF7C5E100015888 /* Assets.xcassets */; };
+		DE347EF81EF7C5E100015888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE347EF61EF7C5E100015888 /* LaunchScreen.storyboard */; };
+		DE347F041EF7C93400015888 /* VNPStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = DE347F021EF7C93400015888 /* VNPStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE347F051EF7C93400015888 /* VNPStructs.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347F031EF7C93400015888 /* VNPStructs.m */; };
+		DE347F081EF7E09800015888 /* VNPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE347F061EF7E09800015888 /* VNPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE347F091EF7E09800015888 /* VNPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347F071EF7E09800015888 /* VNPermissions.m */; };
+		DE347F0C1EF7F62E00015888 /* VNPermissionScopeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE347F0A1EF7F62E00015888 /* VNPermissionScopeViewController.h */; };
+		DE347F0D1EF7F62E00015888 /* VNPermissionScopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347F0B1EF7F62E00015888 /* VNPermissionScopeViewController.m */; };
+		DE347F101EF7F9A200015888 /* VNPermissionScopeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DE347F0E1EF7F9A200015888 /* VNPermissionScopeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE347F111EF7F9A200015888 /* VNPermissionScopeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE347F0F1EF7F9A200015888 /* VNPermissionScopeManager.m */; };
+		DE4AE7B41EFE400B00CE224A /* VNPermission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE347ED71EF7C5C700015888 /* VNPermission.framework */; };
+		DE4AE7B51EFE400B00CE224A /* VNPermission.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE347ED71EF7C5C700015888 /* VNPermission.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEABBEFC1EFD6B3200E79A43 /* VNExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DEABBEFA1EFD6B3200E79A43 /* VNExtension.h */; };
+		DEABBEFD1EFD6B3200E79A43 /* VNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABBEFB1EFD6B3200E79A43 /* VNExtension.m */; };
+		DEABBEFF1EFE283400E79A43 /* VNPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABBEFE1EFE283400E79A43 /* VNPConstants.m */; };
+		DEAD8B911EFF9B0D004FC284 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEAD8B931EFF9B0D004FC284 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DEABBF011EFE2BA500E79A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE347ECE1EF7C5C700015888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE347ED61EF7C5C700015888;
+			remoteInfo = VNPermission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE4AE7B61EFE400B00CE224A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE4AE7B51EFE400B00CE224A /* VNPermission.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DE20E9701EFEB4A5004009FC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		DE20E9711EFF7D50004009FC /* permission-exm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "permission-exm.entitlements"; sourceTree = "<group>"; };
+		DE20E9721EFF99B4004009FC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE347ED71EF7C5C700015888 /* VNPermission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VNPermission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE347EDA1EF7C5C700015888 /* VNPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNPermission.h; sourceTree = "<group>"; };
 		DE347EDB1EF7C5C700015888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE347EE61EF7C5E100015888 /* permission-exm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "permission-exm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE347EE91EF7C5E100015888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE347EEB1EF7C5E100015888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE347EEC1EF7C5E100015888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE347EEE1EF7C5E100015888 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE347EEF1EF7C5E100015888 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE347EF21EF7C5E100015888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE347EF41EF7C5E100015888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE347EF71EF7C5E100015888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE347EF91EF7C5E100015888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE347EFD1EF7C74000015888 /* VNPConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNPConstants.h; sourceTree = "<group>"; };
+		DE347F021EF7C93400015888 /* VNPStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNPStructs.h; sourceTree = "<group>"; };
+		DE347F031EF7C93400015888 /* VNPStructs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNPStructs.m; sourceTree = "<group>"; };
+		DE347F061EF7E09800015888 /* VNPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNPermissions.h; sourceTree = "<group>"; };
+		DE347F071EF7E09800015888 /* VNPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNPermissions.m; sourceTree = "<group>"; };
+		DE347F0A1EF7F62E00015888 /* VNPermissionScopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNPermissionScopeViewController.h; sourceTree = "<group>"; };
+		DE347F0B1EF7F62E00015888 /* VNPermissionScopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNPermissionScopeViewController.m; sourceTree = "<group>"; };
+		DE347F0E1EF7F9A200015888 /* VNPermissionScopeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNPermissionScopeManager.h; sourceTree = "<group>"; };
+		DE347F0F1EF7F9A200015888 /* VNPermissionScopeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNPermissionScopeManager.m; sourceTree = "<group>"; };
+		DE4AE7B21EFE3F0900CE224A /* VNPermissionLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNPermissionLocalization.h; sourceTree = "<group>"; };
+		DEABBEFA1EFD6B3200E79A43 /* VNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNExtension.h; sourceTree = "<group>"; };
+		DEABBEFB1EFD6B3200E79A43 /* VNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNExtension.m; sourceTree = "<group>"; };
+		DEABBEFE1EFE283400E79A43 /* VNPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNPConstants.m; sourceTree = "<group>"; };
+		DEAD8B921EFF9B0D004FC284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DEAD8B941EFF9B10004FC284 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DEAD8B991EFFC1D3004FC284 /* Screen_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_en.png; sourceTree = "<group>"; };
+		DEAD8B9A1EFFC1D3004FC284 /* Screen_ru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_ru.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,13 +98,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE347EE31EF7C5E100015888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4AE7B41EFE400B00CE224A /* VNPermission.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DE347ECD1EF7C5C700015888 = {
 			isa = PBXGroup;
 			children = (
+				DE20E9721EFF99B4004009FC /* README.md */,
+				DEAD8B991EFFC1D3004FC284 /* Screen_en.png */,
+				DEAD8B9A1EFFC1D3004FC284 /* Screen_ru.png */,
 				DE347ED91EF7C5C700015888 /* VNPermission */,
+				DE347EE71EF7C5E100015888 /* permission-exm */,
 				DE347ED81EF7C5C700015888 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				DE347ED71EF7C5C700015888 /* VNPermission.framework */,
+				DE347EE61EF7C5E100015888 /* permission-exm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +133,57 @@
 		DE347ED91EF7C5C700015888 /* VNPermission */ = {
 			isa = PBXGroup;
 			children = (
+				DE4AE7B31EFE3FC100CE224A /* Localization */,
 				DE347EDA1EF7C5C700015888 /* VNPermission.h */,
+				DE347EFD1EF7C74000015888 /* VNPConstants.h */,
+				DEABBEFE1EFE283400E79A43 /* VNPConstants.m */,
+				DE347F021EF7C93400015888 /* VNPStructs.h */,
+				DE347F031EF7C93400015888 /* VNPStructs.m */,
+				DEABBEFA1EFD6B3200E79A43 /* VNExtension.h */,
+				DEABBEFB1EFD6B3200E79A43 /* VNExtension.m */,
+				DE347F061EF7E09800015888 /* VNPermissions.h */,
+				DE347F071EF7E09800015888 /* VNPermissions.m */,
+				DE347F0A1EF7F62E00015888 /* VNPermissionScopeViewController.h */,
+				DE347F0B1EF7F62E00015888 /* VNPermissionScopeViewController.m */,
+				DE347F0E1EF7F9A200015888 /* VNPermissionScopeManager.h */,
+				DE347F0F1EF7F9A200015888 /* VNPermissionScopeManager.m */,
 				DE347EDB1EF7C5C700015888 /* Info.plist */,
+				DE4AE7B21EFE3F0900CE224A /* VNPermissionLocalization.h */,
 			);
 			path = VNPermission;
+			sourceTree = "<group>";
+		};
+		DE347EE71EF7C5E100015888 /* permission-exm */ = {
+			isa = PBXGroup;
+			children = (
+				DE20E9711EFF7D50004009FC /* permission-exm.entitlements */,
+				DE347EEB1EF7C5E100015888 /* AppDelegate.h */,
+				DE347EEC1EF7C5E100015888 /* AppDelegate.m */,
+				DE347EEE1EF7C5E100015888 /* ViewController.h */,
+				DE347EEF1EF7C5E100015888 /* ViewController.m */,
+				DE347EF11EF7C5E100015888 /* Main.storyboard */,
+				DE347EF41EF7C5E100015888 /* Assets.xcassets */,
+				DE347EF61EF7C5E100015888 /* LaunchScreen.storyboard */,
+				DE347EF91EF7C5E100015888 /* Info.plist */,
+				DE347EE81EF7C5E100015888 /* Supporting Files */,
+			);
+			path = "permission-exm";
+			sourceTree = "<group>";
+		};
+		DE347EE81EF7C5E100015888 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE347EE91EF7C5E100015888 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4AE7B31EFE3FC100CE224A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD8B931EFF9B0D004FC284 /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +193,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEABBEFC1EFD6B3200E79A43 /* VNExtension.h in Headers */,
+				DE347F101EF7F9A200015888 /* VNPermissionScopeManager.h in Headers */,
+				DE347F081EF7E09800015888 /* VNPermissions.h in Headers */,
+				DE347F041EF7C93400015888 /* VNPStructs.h in Headers */,
 				DE347EDC1EF7C5C700015888 /* VNPermission.h in Headers */,
+				DE347F0C1EF7F62E00015888 /* VNPermissionScopeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +223,25 @@
 			productReference = DE347ED71EF7C5C700015888 /* VNPermission.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DE347EE51EF7C5E100015888 /* permission-exm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE347EFA1EF7C5E100015888 /* Build configuration list for PBXNativeTarget "permission-exm" */;
+			buildPhases = (
+				DE347EE21EF7C5E100015888 /* Sources */,
+				DE347EE31EF7C5E100015888 /* Frameworks */,
+				DE347EE41EF7C5E100015888 /* Resources */,
+				DE4AE7B61EFE400B00CE224A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEABBF021EFE2BA500E79A43 /* PBXTargetDependency */,
+			);
+			name = "permission-exm";
+			productName = "permission-exm";
+			productReference = DE347EE61EF7C5E100015888 /* permission-exm.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +256,19 @@
 						DevelopmentTeam = H2N8RZMA28;
 						ProvisioningStyle = Automatic;
 					};
+					DE347EE51EF7C5E100015888 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H2N8RZMA28;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = DE347ED11EF7C5C700015888 /* Build configuration list for PBXProject "VNPermission" */;
@@ -106,6 +277,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				ru,
 			);
 			mainGroup = DE347ECD1EF7C5C700015888;
 			productRefGroup = DE347ED81EF7C5C700015888 /* Products */;
@@ -113,6 +286,7 @@
 			projectRoot = "";
 			targets = (
 				DE347ED61EF7C5C700015888 /* VNPermission */,
+				DE347EE51EF7C5E100015888 /* permission-exm */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +296,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAD8B911EFF9B0D004FC284 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE347EE41EF7C5E100015888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE347EF81EF7C5E100015888 /* LaunchScreen.storyboard in Resources */,
+				DE347EF51EF7C5E100015888 /* Assets.xcassets in Resources */,
+				DE347EF31EF7C5E100015888 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,16 +317,70 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE347F091EF7E09800015888 /* VNPermissions.m in Sources */,
+				DE347F051EF7C93400015888 /* VNPStructs.m in Sources */,
+				DEABBEFF1EFE283400E79A43 /* VNPConstants.m in Sources */,
+				DE347F0D1EF7F62E00015888 /* VNPermissionScopeViewController.m in Sources */,
+				DEABBEFD1EFD6B3200E79A43 /* VNExtension.m in Sources */,
+				DE347F111EF7F9A200015888 /* VNPermissionScopeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE347EE21EF7C5E100015888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE347EF01EF7C5E100015888 /* ViewController.m in Sources */,
+				DE347EED1EF7C5E100015888 /* AppDelegate.m in Sources */,
+				DE347EEA1EF7C5E100015888 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEABBF021EFE2BA500E79A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE347ED61EF7C5C700015888 /* VNPermission */;
+			targetProxy = DEABBF011EFE2BA500E79A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE347EF11EF7C5E100015888 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE347EF21EF7C5E100015888 /* Base */,
+				DE20E9701EFEB4A5004009FC /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE347EF61EF7C5E100015888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE347EF71EF7C5E100015888 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DEAD8B931EFF9B0D004FC284 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAD8B921EFF9B0D004FC284 /* Base */,
+				DEAD8B941EFF9B10004FC284 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DE347EDD1EF7C5C700015888 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -180,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -194,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -226,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,6 +512,32 @@
 			};
 			name = Release;
 		};
+		DE347EFB1EF7C5E100015888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "permission-exm/permission-exm.entitlements";
+				DEVELOPMENT_TEAM = H2N8RZMA28;
+				INFOPLIST_FILE = "permission-exm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistral.permission-exm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE347EFC1EF7C5E100015888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "permission-exm/permission-exm.entitlements";
+				DEVELOPMENT_TEAM = H2N8RZMA28;
+				INFOPLIST_FILE = "permission-exm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mistral.permission-exm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -291,6 +557,16 @@
 				DE347EE11EF7C5C700015888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE347EFA1EF7C5E100015888 /* Build configuration list for PBXNativeTarget "permission-exm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE347EFB1EF7C5E100015888 /* Debug */,
+				DE347EFC1EF7C5E100015888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Multiple Permissions"; ObjectID = "1wN-vL-Qpg"; */
+"1wN-vL-Qpg.normalTitle" = "Несколько запросов";
+
+/* Class = "UIButton"; normalTitle = "UI-less Permissions"; ObjectID = "ZUJ-7K-e6B"; */
+"ZUJ-7K-e6B.normalTitle" = "Системный запрос разрешения доступа";
+
+/* Class = "UIButton"; normalTitle = "Simple Notifications"; ObjectID = "wRi-Ws-F0z"; */
+"wRi-Ws-F0z.normalTitle" = "Запрос Уведомлений";
